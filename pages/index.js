@@ -20,6 +20,9 @@ confettiAnimation(); //Only when its the anniversary date
         <title>Kim + Jarno</title>
         <meta name="description" content="" />
         <link rel="icon" href="/heart.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>
       <main className="relative w-full h-screen">
         <div
@@ -33,9 +36,7 @@ confettiAnimation(); //Only when its the anniversary date
               <button
                 type="button"
                 className={`w-14 h-14 sm:w-20 sm:h-20 cursor-pointer transition-all duration-700 transform hover:scale-110 shadow-lg flex items-center justify-center text-2xl sm:text-4xl rounded-full ${
-                  showLoveCounter
-                    ? "bg-[#FFF4E4]"
-                    : "bg-[#fddfe4]"
+                  showLoveCounter ? "bg-[#FFF4E4]" : "bg-[#fddfe4]"
                 } ${
                   showLoveCounter
                     ? "rotate-0 scale-110"
