@@ -8,7 +8,7 @@ export default function LoveYou() {
   return (
     <div className={styles.container} style={{ background: "#fddfe4" }}>
       <Head>
-        <title>Kim + Jarno</title>
+        <title>Kim & Jarno</title>
         <meta name="description" content="" />
         <link rel="icon" href="/heart.png" />
       </Head>

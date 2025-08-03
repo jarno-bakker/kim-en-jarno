@@ -17,7 +17,7 @@ confettiAnimation(); //Only when its the anniversary date
   return (
     <>
       <Head>
-        <title>Kim + Jarno</title>
+        <title>Kim & Jarno</title>
         <meta name="description" content="" />
         <link rel="icon" href="/heart.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />

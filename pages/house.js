@@ -9,7 +9,7 @@ export default function House() {
   return (
     <div className={styles.container} style={{ background: "#FFF4E4" }}>
       <Head>
-        <title>Kim + Jarno</title>
+        <title>Kim & Jarno</title>
         <meta name="description" content="" />
         <link rel="icon" href="/heart.png" />
       </Head>
