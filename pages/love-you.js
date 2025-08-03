@@ -6,7 +6,7 @@ import { confettiAnimation, confettiExplosion } from "../components/confetti";
 
 export default function LoveYou() {
   return (
-    <div className={styles.container} style={{background: "#fddfe4"}}>
+    <div className={styles.container} style={{ background: "#fddfe4" }}>
       <Head>
         <title>Kim + Jarno</title>
         <meta name="description" content="" />
@@ -14,15 +14,14 @@ export default function LoveYou() {
       </Head>
 
       <main className={styles.main}>
-        <div>  
-            <img
-                className="w-24 md:w-72 lg:w-96 transform transition duration-1000 hover:scale-125"
-                src="heart.png"
-                onClick={confettiExplosion}
-            />
+        <div>
+          <img
+            className="w-32 md:w-72 lg:w-96 transform transition duration-1000 hover:scale-125"
+            src="heart.png"
+            onClick={confettiExplosion}
+          />
         </div>
-        <ClockLove/>
-
+        <ClockLove />
       </main>
     </div>
   );

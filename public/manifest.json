@@ -7,12 +7,12 @@
   "theme_color": "#FFF4E4",
   "icons": [
     {
-      "src": "/heart.png",
+      "src": "/kim-en-jarno.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/heart.png",
+      "src": "/kim-en-jarno.png",
       "sizes": "512x512",
       "type": "image/png"
     }

@@ -7,7 +7,7 @@ import { confettiExplosion } from "../components/confetti";
 export default function House() {
 
   return (
-    <div className={styles.container} style={{background: "#FFF4E4"}}>
+    <div className={styles.container} style={{ background: "#FFF4E4" }}>
       <Head>
         <title>Kim + Jarno</title>
         <meta name="description" content="" />
@@ -15,15 +15,14 @@ export default function House() {
       </Head>
 
       <main className={styles.main}>
-        <div>  
-            <img
-                className="w-24 md:w-72 lg:w-96 transform transition duration-1000 hover:scale-110"
-                src="house.png"
-                onClick={confettiExplosion}
-            />
+        <div>
+          <img
+            className="w-32 md:w-72 lg:w-96 transform transition duration-1000 hover:scale-110"
+            src="house.png"
+            onClick={confettiExplosion}
+          />
         </div>
-        <ClockHouse/>
-
+        <ClockHouse />
       </main>
     </div>
   );
