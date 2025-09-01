@@ -21,8 +21,10 @@ confettiAnimation(); //Only when its the anniversary date
         <meta name="description" content="" />
         <link rel="icon" href="/heart.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
       </Head>
       <main className="relative w-full h-screen">
         <div
