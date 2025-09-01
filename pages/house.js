@@ -6,6 +6,11 @@ import { confettiExplosion } from "../components/confetti";
 
 export default function House() {
 
+  React.useEffect(() => {
+    document.body.style.setProperty('--bg-color', '#FFF4E4');
+    document.body.style.backgroundColor = '#FFF4E4';
+  }, []);
+  
   return (
     <div className={styles.container} style={{ background: "#FFF4E4" }}>
       <Head>
