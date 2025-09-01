@@ -15,7 +15,7 @@ export default function Home() {
   const [showLoveCounter, setShowLoveCounter] = React.useState(true);
 
   React.useEffect(() => {
-    document.body.style.backgroundColor = showLoveCounter ? "#FFF4E4" : "#fddfe4";
+    document.body.style.backgroundColor = showLoveCounter ? "#fddfe4" : "#FFF4E4";
   }, [showLoveCounter]);
 
   return (
@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/heart.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="theme-color" content={showLoveCounter ? "#FFF4E4" : "#fddfe4"} />
+        <meta name="theme-color" content={showLoveCounter ? "#fddfe4" : "#FFF4E4"} />
 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     
