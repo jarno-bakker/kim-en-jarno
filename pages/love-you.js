@@ -6,7 +6,7 @@ import { confettiAnimation, confettiExplosion } from "../components/confetti";
 
 export default function LoveYou() {
 
-  useEffect(() => {
+  React.useEffect(() => {
     document.body.style.setProperty('--bg-color', '#fddfe4');
     document.body.style.backgroundColor = '#fddfe4';
   }, []);
