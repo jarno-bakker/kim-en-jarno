@@ -11,8 +11,12 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fab);
 
 export default function Home() {
-confettiAnimation(); //Only when its the anniversary date
+  confettiAnimation(); //Only when its the anniversary date
   const [showLoveCounter, setShowLoveCounter] = React.useState(true);
+
+  React.useEffect(() => {
+    document.body.style.backgroundColor = showLoveCounter ? "#FFF4E4" : "#fddfe4";
+  }, [showLoveCounter]);
 
   return (
     <>
@@ -22,6 +26,7 @@ confettiAnimation(); //Only when its the anniversary date
         <link rel="icon" href="/heart.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="theme-color" content={showLoveCounter ? "#FFF4E4" : "#fddfe4"} />
 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     
