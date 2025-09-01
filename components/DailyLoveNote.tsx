@@ -89,7 +89,7 @@ export default function DailyLoveNote() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             transition={{ duration: 0.3 }}
-            className="fixed bottom-20 right-4 z-[9999] max-w-xs bg-white rounded-2xl shadow-lg p-4 border border-pink-100"
+            className="fixed top-20 right-4 z-[9999] max-w-xs bg-white rounded-2xl shadow-lg p-4 border border-pink-100"
           >
             <div className="text-center space-y-3">
               <p className="text-sm font-medium text-pink-700 leading-relaxed">{todayMessage}</p>
@@ -99,7 +99,7 @@ export default function DailyLoveNote() {
         )}
       </AnimatePresence>
 
-      <div className="fixed bottom-4 right-4 z-[9999]">
+      <div className="fixed top-2 right-4 z-[9999] sm:top-4">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
