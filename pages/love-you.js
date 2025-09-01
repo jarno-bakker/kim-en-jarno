@@ -5,11 +5,6 @@ import ClockLove from "../components/clock-love";
 import { confettiAnimation, confettiExplosion } from "../components/confetti";
 
 export default function LoveYou() {
-
-  React.useEffect(() => {
-    document.body.style.setProperty('--bg-color', '#fddfe4');
-    document.body.style.backgroundColor = '#fddfe4';
-  }, []);
   
   return (
     <div className={styles.container} style={{ background: "#fddfe4" }}>
