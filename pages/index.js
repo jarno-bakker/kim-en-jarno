@@ -87,7 +87,7 @@ export default function Home() {
             <House />
           </div>
         </div>
-       <DailyLoveNote />
+      {showLoveCounter && <DailyLoveNote /> }
       </main>
     </>
   );
