@@ -4,6 +4,7 @@ import React from "react";
 import { confettiAnimation } from "../components/confetti";
 import LoveYou from "./love-you";
 import House from "./house";
+import DailyLoveNote from "../components/DailyLoveNote"
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -86,6 +87,7 @@ export default function Home() {
             <House />
           </div>
         </div>
+       <DailyLoveNote />
       </main>
     </>
   );
